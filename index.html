@@ -3,9 +3,158 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
     <title>The Daily Roast</title>
   </head>
   <body>
-    <h1>Coffee Hackathon</h1>
+    <header>
+      <div class="hero-section">
+        <div class="website-name">
+          <h1>The Daily Roast</h1>
+          <span class="website-tagline">"Your Daily Ritual, Perfected"</span>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="main-section">
+      <section class="main-left-section">
+        <div class="about-us-section">
+          <div class="about-us-left-section">
+            <h2>About Us - Daily Roast</h2>
+            <hr />
+            <p>
+              &ldquo;At The Daily Roast, coffee is more than just a drink—it’s a ritual, a moment of warmth, and a
+              connection to the community. Founded with a passion for crafting the perfect cup, we source the finest
+              beans, roast them with care, and brew each cup to perfection. Whether you’re starting your day with a rich
+              espresso, savoring a handcrafted latte, or enjoying a fresh-baked pastry, our cozy café is your home away
+              from home. Step inside, take a breath, and let The Daily Roast be a part of your daily
+              ritual—perfected.&rdquo;
+            </p>
+          </div>
+          <div class="about-us-right-section">
+            <img src="/imgs/coffee.jpg" alt="cup of coffee" />
+          </div>
+        </div>
+        <div class="menu-section">
+          <h2>Menu</h2>
+          <hr />
+          <div class="menu-section-items">
+            <div class="menu-section-item">
+              <img src="/imgs/cappuccino.jpg" alt="cup of cappuccino" />
+              <h3 class="name">Cappuccino</h3>
+              <p class="description">A perfect balance of espresso, steamed milk, and foam.</p>
+              <span class="price">$3.00</span>
+            </div>
+            <div class="menu-section-item">
+              <img src="/imgs/espresso.jpg" alt="cup of espresso" />
+              <h3 class="name">Espresso</h3>
+              <p class="description">Rich and bold, the classic espresso shot.</p>
+              <span class="price">$4.00</span>
+            </div>
+            <div class="menu-section-item">
+              <img src="/imgs/latte.jpg" alt="cup of latte" />
+              <h3 class="name">Latte</h3>
+              <p class="description">Velvety steamed milk with a smooth espresso base.</p>
+              <span class="price">$5.00</span>
+            </div>
+            <div class="menu-section-item">
+              <img src="/imgs/chocolate-muffin.jpg" alt="chocolate muffin" />
+              <h3 class="name">Chocolate Chip Muffin</h3>
+              <p class="description">Soft, moist, and packed with sweet chocolate chips.</p>
+              <span class="price">$2.00</span>
+            </div>
+            <div class="menu-section-item">
+              <img src="/imgs/chocolate-chip.jpg" alt="chocolate chip" />
+              <h3 class="name">Chocolate Chip Cookie</h3>
+              <p class="description">Warm, gooey, and filled with rich chocolate chips.</p>
+              <span class="price">$3.00</span>
+            </div>
+            <div class="menu-section-item">
+              <img src="/imgs/croissant.webp" alt="croissant" />
+              <h3 class="name">Croissant</h3>
+              <p class="description">Flaky, buttery, and baked to golden perfection.</p>
+              <span class="price">$4.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main-right-section">
+        <div class="testimonial-section">
+          <h2>Testimonial</h2>
+          <div class="testimonial-section-cards">
+            <div class="testimonial-section-card">
+              <img src="/imgs/customer-one.jpg" alt="customer one" />
+              <h3 class="testimonial-name">Pablo V.</h3>
+              <p class="testimonial-description">
+                &ldquo;The best coffee in town! The atmosphere is so warm and welcoming.&rdquo;
+              </p>
+            </div>
+            <hr />
+            <div class="testimonial-section-card">
+              <img src="/imgs/customer-two.jpg" alt="customer two" />
+              <h3 class="testimonial-name">Phillip E.</h3>
+              <p class="testimonial-description">
+                &ldquo;Friendly staff, great ambiance, and the coffee is just perfect!&rdquo;
+              </p>
+            </div>
+            <hr />
+            <div class="testimonial-section-card">
+              <img src="/imgs/customer-three.jpg" alt="customer three" />
+              <h3 class="testimonial-name">Matthew M.</h3>
+              <p class="testimonial-description">
+                &ldquo;Amazing lattes and the pastries are to die for. My daily go-to spot!.&rdquo;
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <div class="contact-us-section">
+      <div class="contact-section-card">
+        <h2>Contact Us</h2>
+        <p>Have a question or special request? Reach out to us!</p>
+        <form class="contact-section-form">
+          <div class="contact-section-form-horizontal">
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Your First Name..." />
+          </div>
+          <div class="contact-section-form-horizontal">
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Your Last Name..." />
+          </div>
+          <div class="contact-section-form-horizontal">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Your Email..." />
+          </div>
+          <div class="contact-section-form-horizontal">
+            <label for="subject">Subject:</label>
+            <select name="subject" id="subject">
+              <option value="general">General Inquiry</option>
+              <option value="feedback">Feedback</option>
+              <option value="catering">Catering Request</option>
+            </select>
+          </div>
+          <div class="contact-section-form-horizontal">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" placeholder="Your Message..."></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

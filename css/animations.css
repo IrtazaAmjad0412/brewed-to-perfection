@@ -1,0 +1,18 @@
+.website-name h1,
+.website-tagline,
+.about-us-left-section h2,
+.menu-section h2,
+.testimonial-section h2,
+.contact-us-section h2,
+.contact-us-section p {
+  animation: appear 4s 0s 1;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
